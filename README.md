@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Hauser&Wirth
 
 Hauser&Wirth is a static vanilla-JavaScript frontend served by an Express API. SQLite is the source of truth for customer, painting, order, booking, and pottery data. The browser uses an httpOnly JWT cookie and never stores credentials or tokens in web storage.
@@ -154,3 +155,7 @@ The application must be seeded before testing the gallery. If the gallery is emp
 - Production deployment and operational hardening remain separate from local development.
 - Additional concurrency tests, monitoring, and deployment automation would improve reliability.
 
+=======
+# GDGC-Art-Studio
+A creative digital art studio built as part of my GDGC application.
+>>>>>>> 29ea7f464f6104a6b6efe192fc8ff93b1173b2fb
