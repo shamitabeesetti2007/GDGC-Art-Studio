@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hauser&amp;Wirth — Original Paintings, Considered Spaces &amp; Handmade Pottery</title>
+  <meta name="description" content="An independent contemporary art studio and gallery presenting original paintings, site-specific architectural wall murals, and handmade reduction-fired pottery.">
+  <meta name="theme-color" content="#F8F5EF">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Hauser&amp;Wirth — Studio &amp; Gallery">
+  <meta property="og:description" content="Art that makes a space your own. Original paintings, considered spaces, and handmade pottery.">
+  <meta property="og:type" content="website">
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="/assets/css/variables.css">
+  <link rel="stylesheet" href="/assets/css/base.css">
+  <link rel="stylesheet" href="/assets/css/components.css">
+  <link rel="stylesheet" href="/assets/css/pages.css">
+
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='42' fill='%23B7654B'/></svg>">
+</head>
+<body>
+
+  <!-- Site Navigation -->
+  <header class="site-header" id="site-header">
+    <div class="container">
+      <!-- Studio Wordmark -->
+      <a href="#home" class="wordmark" id="brand-wordmark" aria-label="Hauser&amp;Wirth Home">
+        <span class="wordmark-title">Hauser&amp;Wirth</span>
+        <span class="wordmark-sub">Studio &amp; Gallery</span>
+      </a>
+
+      <!-- Primary Navigation Links -->
+      <nav aria-label="Main Navigation">
+        <ul class="nav-links" id="nav-links" hidden>
+          <li><a href="#home" class="nav-link active" id="nav-link-home">Home</a></li>
+          <li><a href="#gallery" class="nav-link" id="nav-link-gallery">Gallery</a></li>
+          <li><a href="#wall-painting" class="nav-link" id="nav-link-wall">Wall Painting</a></li>
+          <li><a href="#pottery" class="nav-link" id="nav-link-pottery">Pottery</a></li>
+          <li><a href="#account" class="nav-link" id="nav-link-account">My Account</a></li>
+        </ul>
+      </nav>
+
+      <!-- Right Action / Studio Admin Entry -->
+      <div class="nav-actions">
+        <a href="#dashboard" class="nav-dashboard-link" id="nav-dashboard-entry" title="Open Studio Inventory & Order Management" hidden>
+          Studio Workspace
+        </a>
+        <a href="/login" class="nav-account-btn" id="nav-account-btn">
+          <span>Log in</span>
+        </a>
+        <button class="mobile-menu-btn" id="mobile-menu-btn" aria-label="Toggle navigation menu" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Dynamic Main Content Container -->
+  <main id="app-main" role="main" aria-live="polite">
+    <!-- Rendered dynamically by app.js -->
+  </main>
+
+  <!-- Global Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <h4>Hauser&amp;Wirth</h4>
+          <p>
+            An independent contemporary art practice exploring the dialogue between tactile materials, architecture, and interior atmospheres.
+          </p>
+        </div>
+
+        <div>
+          <div class="footer-col-title">Exhibition</div>
+          <ul class="footer-links">
+            <li><a href="#gallery">Selected Paintings</a></li>
+            <li><a href="#gallery">Available Works</a></li>
+            <li><a href="#gallery">Archive &amp; Provenance</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <div class="footer-col-title">Services</div>
+          <ul class="footer-links">
+            <li><a href="#wall-painting">Wall Consultations</a></li>
+            <li><a href="#wall-painting">Architectural Murals</a></li>
+            <li><a href="#pottery">Custom Ceramics</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <div class="footer-col-title">Studio &amp; Archive</div>
+          <ul class="footer-links">
+            <li><a href="#account">My Acquisitions &amp; Orders</a></li>
+            <li><a href="#dashboard">Studio Inventory Dashboard</a></li>
+            <li><a href="#home">Philosophy Journal</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>© 2026 Hauser&amp;Wirth Studio. All original works copyright of the respective artists.</div>
+        <div style="font-family: var(--font-editorial); font-style: italic; color: var(--color-soft-clay);">
+          A quiet studio signature · London &amp; Coastal Studios
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Global Modal Dialog Backdrop -->
+  <div class="modal-backdrop" id="global-modal-backdrop" role="dialog" aria-modal="true" aria-hidden="true">
+    <div class="modal-dialog" id="global-modal-dialog">
+      <!-- Modal contents injected by UI.openModal or UI.confirm -->
+    </div>
+  </div>
+
+  <!-- Toast Notification Container -->
+  <div class="toast-container" id="toast-container"></div>
+
+  <!-- Application Scripts -->
+  <script src="/api/config.js"></script>
+  <script src="/assets/js/svgGenerator.js"></script>
+  <script src="/assets/js/ui.js"></script>
+  <script src="/assets/js/app.js"></script>
+  <script src="/assets/js/api.js"></script>
+  <script src="/assets/js/integration.js"></script>
+</body>
+</html>

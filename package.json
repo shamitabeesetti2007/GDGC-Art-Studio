@@ -1,0 +1,27 @@
+{
+  "name": "art-editorial",
+  "version": "1.0.0",
+  "description": "Hauser&Wirth — Original Paintings, Considered Spaces & Handmade Pottery",
+  "private": true,
+  "scripts": {
+    "dev": "nodemon server/app.js",
+    "start": "node server/app.js",
+    "seed": "node server/seed/index.js",
+    "test": "node --test server/test/*.test.js"
+  },
+  "dependencies": {
+    "better-sqlite3": "^12.4.1",
+    "bcryptjs": "^3.0.2",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.0",
+    "jsonwebtoken": "^9.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  },
+  "allowScripts": {
+    "better-sqlite3@12.11.1": true
+  }
+}
