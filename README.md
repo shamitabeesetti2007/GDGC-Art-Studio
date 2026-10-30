@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Hauser&Wirth
 
 Hauser&Wirth is a static vanilla-JavaScript frontend served by an Express API. SQLite is the source of truth for customer, painting, order, booking, and pottery data. The browser uses an httpOnly JWT cookie and never stores credentials or tokens in web storage.
